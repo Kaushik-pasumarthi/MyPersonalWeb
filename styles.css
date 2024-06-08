@@ -152,37 +152,35 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Set height as needed */
+  height: 50vh; /* Adjust height as needed */
   width: 95%;
   border-radius: 10px;  
   border: 5px solid #0ef; 
   box-sizing: border-box;
   padding: 3rem;
-  margin-top: 98vh;
-  margin-bottom: 70vh;
+  margin: 98vh 0 70vh; /* Combined margin-top and margin-bottom */
   background-color: rgb(248, 245, 241);
-
 }
-
 
 .about-container {
-  display:inline-flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%; /* Adjust the width as needed */
-  height:50%;
+  width: 80%; /* Adjust width as needed */
+  height: 50%;
   gap: 20px; /* Space between the paragraphs */
 }
-.intro{
+
+.intro {
   font-size: 2.5rem;
   color: #484545;
   text-align: left;
   margin-top: 4vh;
-
 }
-.two{
+
+.two {
   text-align: left;
-  font-size:1.2rem; 
+  font-size: 1.2rem; 
   color: rgb(0, 0, 0);
 }
 
